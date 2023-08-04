@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin :0;
+}
+:root{
+    --mainColor:rgb(25,25,12);
+    --secondColor:rgb(255,250,205);
+}
+html{
+    font-size: 62.5%;
+}    
+body{
+    width: 100vw;
+    margin: auto;
+    height: 100vh;
+    background-color: var(--mainColor);
+    color:var(--secondColor) ;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header, .main, .footer{
+    width: 100%;
+}
+    .header{
+        font-size: 1.6em;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 1em;
+        border-bottom: 1px solid var(--secondColor);
+    }
+        .header__title{
+            margin: 1em auto;
+        }
+        .header__subtitle{
+            font-style: italic;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    .main{
+        background-color: black;
+        flex-grow: 1;
+        font-size: 1.4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /* zone de jeu, carré de 540px dans l'idéal, adaptative aux formats et tailles d'écran */
+        .container{
+            width: 96%;
+            max-width: 540px;
+            height: 90%;
+            max-height: 540px;
+            background-color: aliceblue;
+        }
+    .footer{
+        text-align: center;
+        font-size: 1.6em;
+        padding: 1rem;
+        border-top: 1px solid var(--secondColor);
+    }
+/* --------------------
+Responsive écrans moyens
+-------------------- */
+@media screen and (max-width:1007px){
+    .header__subtitle{flex-direction: column;};
+}
+/* ------------------------
+Responsive écrans petits
+------------------------ */
+@media screen and (max-width:640px){
+    body{font-size:0.7rem;};
+}
+
+
