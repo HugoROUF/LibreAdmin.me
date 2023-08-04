@@ -41,6 +41,12 @@ body{
             justify-content: center;
             align-items: center;
         }
+
+        .icon{
+            width: 1em;
+            height: 1em;
+            background-color: var(--secondColor);
+        }
     .main{
         background-color: black;
         flex-grow: 1;
