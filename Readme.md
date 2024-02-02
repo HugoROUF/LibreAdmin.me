@@ -23,7 +23,7 @@
 2. Classe préparatoire Maths Physique
    - NB : découverte de l'algorithmie
 3. ISAE-ENSMA *Ecole d'ingénieur aéronautique, transport, énergie*
-   - NB : découverte du langage Ada et Fortran associée à quelques travaux d'algorithmie
+   - NB : découverte des langages Ada et Fortran associée à quelques travaux d'algorithmie
 
 ### Expérience professionnelle
 
@@ -31,7 +31,9 @@
 |-|-|-|-|
 |2015-2016|ALTEN pour PSA|Consultant|Prestataire intégré aux équipes PSA - développement système et contrôle de la clim des véhicules hybrides|
 |2016-2018|PSA|Ingénieur prestation|Responsable conception système thermique véhicule électrique|
-|2018-2023|STELLANTIS (*exPSA*)|Architecte Thermomanagement|Pilotage des activités de conception validation des stratégies de gestion de l'énergie thermique - tous véhicules électrifiés|
+|2018-2023|STELLANTIS|Architecte Thermomanagement|Pilotage des activités de conception validation des stratégies de gestion de l'énergie thermique - tous véhicules électrifiés|
+|2023-aujourd'hui|STELLANTIS|Concepteur contrôle chaine de traction électrique|Exigences de contrôle pour chaine de traction éléctrique|
+|2023|Ecole O'clock|Formation Développeur Web et Web Mobile Fullstack JS - spé React| Développement d'applications web, serveur, spécialisation React|
 
 ### Reconversion
 
